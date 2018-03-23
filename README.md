@@ -2,13 +2,13 @@
 # Binance C++ API
 
 #### Installation
-    git clone https://github.com/tensaix2j/binacpp    
+    git clone https://github.com/garcezluz/binacpp    
 
 #### Dependencies
 	
-	jsoncpp-1.8.3
-	libcurl-7.56.0
-	libwebsockets-2.4.0
+	jsoncpp-1.8.3 --- sudo apt-get install libjsoncpp-dev
+	libcurl-7.56.0 --- sudo apt-get install libcurl4-openssl-dev
+	libwebsockets-2.4.0 --- sudo apt-get install libwebsockets-dev
 
 
 
@@ -73,7 +73,7 @@ And export LD\_LIBRARY\_PATH and run like this:
 
 You can refer to the following Makefile to get a better picture...
 
-	https://github.com/tensaix2j/binacpp/blob/master/example/Makefile
+	https://github.com/garcezluz/binacpp/blob/master/example/Makefile
 
 
 #### To Build Example
@@ -199,21 +199,21 @@ You can refer to the following Makefile to get a better picture...
 #### Example: Maintain Market Depth Cache Locally via Web Socket
 	
 	
-[example_depthCache.cpp](https://github.com/tensaix2j/binacpp/blob/master/example/example_depthCache.cpp)
+[example_depthCache.cpp](https://github.com/garcezluz/binacpp/blob/master/example/example_depthCache.cpp)
 
 #### Example: KLine/Candlestick Cache and update via Web Socket
 	
 
-[example_klines.cpp](https://github.com/tensaix2j/binacpp/blob/master/example/example_klines.cpp)
+[example_klines.cpp](https://github.com/garcezluz/binacpp/blob/master/example/example_klines.cpp)
 
 #### Example: Aggregated Trades and update via Web Socket
 
-[example_aggTrades.cpp](https://github.com/tensaix2j/binacpp/blob/master/example/example_aggTrades.cpp)
+[example_aggTrades.cpp](https://github.com/garcezluz/binacpp/blob/master/example/example_aggTrades.cpp)
 
 
 #### Example: User stream, Order Execution Status and Balance Update via Web Socket
 
-[example_userStream.cpp](https://github.com/tensaix2j/binacpp/blob/master/example/example_userStream.cpp)
+[example_userStream.cpp](https://github.com/garcezluz/binacpp/blob/master/example/example_userStream.cpp)
 
 
 #### Example: To subscribe multiple streams at the same time, do something like this
@@ -232,7 +232,7 @@ You can refer to the following Makefile to get a better picture...
  		
 	BinaCPP_websocket::enter_event_loop(); 
 
-[example.cpp](https://github.com/tensaix2j/binacpp/blob/master/example/example.cpp)
+[example.cpp](https://github.com/garcezluz/binacpp/blob/master/example/example.cpp)
 
 	
 
